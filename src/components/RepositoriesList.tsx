@@ -12,6 +12,7 @@ const RepositoriesList :React.FC = () => {
         event.preventDefault();
         searchRepositories(term);
     }
+    
   return (
     <div>
         <form onSubmit={onSubmit}>
